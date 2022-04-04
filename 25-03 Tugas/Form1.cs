@@ -92,14 +92,14 @@ namespace _25_03_Tugas
         {
             if (listBoxKiri.SelectedItems.Count > 0)
             {
-                for (int i = 0; i <= listBoxKiri.SelectedItems.Count; i++)
+                for (int i = listBoxKiri.SelectedItems.Count; i>0 ; i--)
                 {
                     listBoxKiri.Items.RemoveAt(listBoxKiri.SelectedIndex);
                 }
             }
             if (listBoxkanan.SelectedItems.Count > 0)
             {
-                for (int i = 0; i <= listBoxkanan.SelectedItems.Count; i++)
+                for (int i = listBoxkanan.SelectedItems.Count; i > 0; i--)
                 {
                     listBoxkanan.Items.RemoveAt(listBoxkanan.SelectedIndex);
                 }
